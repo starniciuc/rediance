@@ -1,0 +1,126 @@
+/*
+    Author     : mstarniciuc
+*/
+.specialist-block{
+	background-color: #f0e5af;
+}
+.specialist-block p{
+	font-size: 14px;
+	color: #292929;
+	text-align: center;
+	padding: 0 20px;
+	margin-top: 5px;
+}
+.specialist-block h3{
+	font-size: 18px;
+	color: #917400;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #d2b45a;
+	margin: 0;
+}
+.specialist-block .image-block{
+	padding: 0 20px 20px;
+}
+.specialist-block .image-block img{
+	border: 1px solid #d2b45a;
+}
+.specialist-block .skills{
+	color: #000000;
+	font-size: 14px;
+	display: block;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.specialist-block .skills span{
+	border-bottom: 1px dashed #000000;
+}
+.specialist-block .skills{
+	text-decoration: none;
+}
+.specialist-block .skills:hover span{
+	border-bottom: 0px dashed #000000;
+}
+.specialist-block .call-block{
+	border: 1px solid #d2b45a;
+	border-radius: 4px;
+	margin: 0 20px 20px;
+	padding: 5px 20px;
+	text-align: center;
+	font-size: 12px;
+	color: #292929;
+	padding-left: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+.specialist-block .call-block span:first-child{
+	padding-left: 52px;
+}
+	
+.specialist-block .call-block a{
+	display: block;
+	color: #917400;
+	font-size: 14px;
+	text-align: center;
+	width: 100%;
+}
+.specialist-block .call-block a span{
+	font-size: 18px;
+}
+.specialist-block .linked-block{
+	padding: 0 20px 50px;
+}
+.specialist-block .linked-block .bg-black{
+	padding: 5px 20px;
+	width: 100%;
+	display: block;
+	border-bottom: 0;
+	margin: 0;
+}
+.specialist-block .linked-block .bg-black span{
+	border-bottom: 1px dashed #FFFFFF;
+}
+.specialist-block .linked-block .bg-black:hover span{
+	border-bottom: 0px dashed #FFFFFF;
+}
+.specialist-block .linked-block:after{
+	display: table;
+	content: " ";
+	clear: both;
+}
+.skill-modal p{
+	color: #66645b;
+	position: relative;
+	padding: 0 40px 0 60px;
+	font-size: 14px;
+}
+.skill-modal .footer{
+	height: 60px;
+	background: url("../img/patern.png") repeat 0 0;
+}
+i.checked{
+	position: absolute;
+	left: 25px;
+	top: 3px;
+	background: url("../img/cheked.png") no-repeat 0 0;
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 15px;
+}
+.skill-modal{
+	border-radius: 0;
+	box-shadow: none;
+}
+.skill-modal .close{
+	position: absolute;
+	top: 1px;
+	right: 0;
+	background: #000000;
+	width: 30px;
+	height: 30px;
+	color: #FFFFFF;
+	opacity: 1;
+	font-weight: normal;
+}

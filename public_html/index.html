@@ -1,0 +1,761 @@
+<html class=" ya-page_js_yes ya-page_css_quirks">
+	<head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+		<meta charset="utf-8"> 
+        <link rel="icon" href="http://salon-radiance.ru/static/img/favicon.ico" type="image/x-icon">
+        <link href="http://salon-radiance.ru/static/css/bootstrap.css" rel="stylesheet">
+        <link href="http://salon-radiance.ru/static/css/radience.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <!--[if IE]><link rel="stylesheet" type="text/css" href="/static/css/radience-ie8.css" /><![endif]-->
+        <script src="http://salon-radiance.ru/static/js/jquery-1.10.1.js"></script>
+        <script src="http://salon-radiance.ru/static/js/bootstrap.js"></script>
+        <title>Ведущий косметолог в г Красноярск - Елена Соловиченко</title>
+	</head>
+	<body>
+		<style>
+			#menu-top {background-color: #222; position: relative; z-index: 100;
+					   padding-top: 5px; font-family: 'PT Sans'}
+			#menu-top img { margin-right: 10px }
+			#menu-top .navbar { min-height: 10px }
+			#menu-top .navbar-nav > li { margin-left:0 }
+			#menu-top .navbar-nav > li > a { padding-top:0; padding-bottom: 0 }
+			#menu-top .navbar .nav li > a { border-left: 1px solid #d4c99b }
+			#menu-top .navbar .nav li:first-child > a { border-left: 0 }
+			#menu-top .navbar .nav li > a { color: #fff6db; text-decoration:underline}
+			#menu-top .navbar .nav li > a:hover {  text-decoration:none }
+
+
+
+			.modal-header {
+				color: #DEB553;
+				font-size: 18px;
+				text-align: center;
+				border: 0;
+			}
+
+			.modal-content {background: #FEF8E2; }
+			.modal-content a:focus { outline: 0; }
+		</style>
+
+
+		<div id="menu-top">
+			<nav class="navbar navbar-inverse container" role="navigation">
+				<div class="container-fluid">
+
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="#" data-toggle="modal" data-target=".bs-modal-map"><img src="http://salon-radiance.ru/static/img/map.png">Красноярск, ул. К.Маркса, 132</a>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="/news/">Акции и новости</a></li>
+						<li><a href="/feedbacks/">Отзывы</a></li>
+						<li><a href="/page/ispolzovanie_kontenta/">Использование контента</a></li>
+					</ul>
+				</div><!-- /.container-fluid -->
+			</nav>
+		</div>
+
+
+
+
+		<div class="modal fade bs-modal-map" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="MyModal">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						Схема проезда 
+					</div>
+					<div class="modal-body">
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<style>
+			#header {
+				background: url('http://salon-radiance.ru/static/img/header-bg-w.jpg') no-repeat 0 0;
+				background-size:cover;
+				height: 179px;
+				position: relative;font-family: Verdana;
+			}
+			#header .logo {padding-top: 15px;}
+		</style>
+
+		<div id="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="logo">
+							<a href="/"><img class="rad" src="http://salon-radiance.ru/static/img/logo2.png"></a>
+						</div>
+					</div>
+					<div class="col-sm-6 head-page">
+
+						<div class="contacts">
+							<div class="phones"><small>+7 (391)</small> 214-48-78,<div class="visible-sm"></div> 2-650-400</div>
+							<div class="call-me">
+								<img src="/static/img/arr.png">
+								<span class="text-brown">Ежедневно с</span> 9:00 - 21:00
+								<a class="call-me" data-toggle="modal" data-target="#call-me-form" href="#"></a>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+
+
+			</div>
+
+
+
+		</div>
+
+
+
+		<style>
+			#modal-alert .modal-header {border: 0;}
+			#call-me-form .linked-block { margin: 0 auto; width: 150px; color:white}
+			#call-me-form .linked-block a { color:white}
+
+			#call-me-form form { padding: 1px 1px 0 1px }
+			#call-me-form .form-group { padding: 0 20px}
+			#call-me-form .form-group.cells { padding: 20px; }
+			#call-me-form h2 { font-size: 24px; text-align: center;}
+			#call-me-form input { border: 1px solid #b69543; border-radius: 0}
+			#call-me-form .form-group.inline input { width: 270px}
+			#call-me-form .linked-block { margin: 0 auto; width: 210px}
+			#call-me-form .linked-block a { color: #FFF}
+			#call-me-form .modal-body { padding:0}
+		</style>
+
+		<div id="call-me-form" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-sm" style="width: 600px; margin: 0 auto; padding: 20px">
+				<div class="modal-content shadow bg-biege">
+					<div class="modal-header">
+						<button class="close" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+						<h2>Заказать звонок</h2>
+					</div>
+					<div class="modal-body">
+						<div class="alert alert-danger" style="display:none">Заполните поля, помеченные *</div>
+						<form action="" method="post" class="from-horizontal">
+							<input type="hidden" name="url" value="http://salon-radiance.ru/employees/3/"> 
+							<input type="hidden" name="csrfmiddlewaretoken" value="5dTX5VOg8oiUat0R5HAHVZcCaKnKpvod">
+							<div class="form-group">
+								<input class="form-control" id="id_name" maxlength="30" name="name" placeholder="Как вас зовут*" type="text">
+							</div>
+							<div class="form-group">
+								<input class="form-control" id="id_phone" maxlength="50" name="phone" placeholder="Ваш телефон*" type="text">
+							</div>
+
+							<div class="form-group">
+								<input class="form-control" id="id_theme" maxlength="50" name="theme" placeholder="Удобное время для звонка*" type="text">
+							</div>
+							<div class="form-group">
+								<textarea class="form-control" cols="40" id="id_text" name="text" placeholder="Ваш вопрос (Вы предварительно можете задать вопрос)" rows="5"></textarea>
+							</div>
+
+							<div class="form-group cells black">
+								<div class="linked-block bg-black">
+									<img src="http://salon-radiance.ru/static/img/next.png">
+									<a id="call-me-btn" href="#">Заказать звонок</a>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div id="modal-alert" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content bg-biege">
+					<div class="modal-header">
+						<button class="close" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+					</div>
+					<div class="modal-body">
+						Спасибо за вашу заявку. Мы свяжемся с вами в течение рабочего дня
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<script>
+						$('#call-me-btn').click(function () {
+							var form = $(this).closest('form');
+							var formData = {url: window.location.href};
+							form.find(':input').each(function (k, v) {
+								formData[v.name] = v.value;
+							});
+
+							$.ajax({
+								url: '/api/v1/callme/',
+								type: 'post',
+								contentType: 'application/json',
+								dataType: 'json',
+								data: JSON.stringify(formData),
+								statusCode: {
+									201: function () {
+										$('#call-me-form').modal('hide');
+										$('#modal-alert').modal('show');
+										setTimeout(function () {
+											form.trigger('reset');
+											$('.alert-danger').hide();
+											$('#modal-alert').modal('hide');
+										}, 5000);
+									},
+									400: function (s, d) {
+										$('.alert-danger').show();
+									}
+								},
+							});
+						});
+		</script>
+
+
+
+        <style>
+			#menu-main .nav { display: table; float: left;
+							  position:relative;}
+
+			.dropdown-menu {background-color: #222; float: none; position: absolute; left: -1px}
+			.dropdown-menu.items-3 {top: -88px }
+			.dropdown-menu.items-4 {top: -114px }
+			.dropdown-menu[class*=items-].down {top: 27px; }
+			.dropdown-menu {background-color: #222; float: none; position: absolute; left: -1px}
+			.dropdown-menu > li > a { color: #FFF; padding: 3px 10px}
+			.dropdown-menu > li > a:hover span, .dropdown-menu > li > a:focus span
+			{border-bottom: 1px dashed #AA9343;}
+			.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {color: #AA9343;
+																		  background: none}
+			.dropdown-menu > li > a .glyphicon {margin-right: 5px }
+			.dropdown .glyphicon { font-size: 8px; top:-1px} 
+		</style>
+
+		<div id="menu-main">
+
+			<nav class="navbar navbar-default container" role="navigation">
+				<div class="container">
+					<ul class="nav navbar-nav">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">УСЛУГИ <b class="glyphicon glyphicon-chevron-down"></b></a>
+							<ul class="dropdown-menu items-4">
+
+								<li><a href="/service-list/jesteticheskaja-kosmetologija-dlja-lica/"><b class="glyphicon glyphicon-chevron-right"></b><span>Эстетическая косметология для лица</span></a></li>
+
+								<li><a href="/service-list/2/"><b class="glyphicon glyphicon-chevron-right"></b><span>Эстетическая косметология для тела</span></a></li>
+
+								<li><a href="/service-list/uhod-za-volosami/"><b class="glyphicon glyphicon-chevron-right"></b><span>Уход за волосами</span></a></li>
+
+								<li><a href="/service-list/manikur/"><b class="glyphicon glyphicon-chevron-right"></b><span>Маникюр и педикюр</span></a></li>
+
+							</ul>
+						</li>
+						<li><a href="/prices/1/">ЦЕНЫ</a></li>
+						<li><a href="/questions/">ВОПРОС-ОТВЕТ</a></li>
+						<li><a href="/articles/">СОВЕТЫ</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">О СТУДИИ <b class="glyphicon glyphicon-chevron-down"></b></a>
+							<ul class="dropdown-menu items-3 down">
+								<li><a href="/employees/"><b class="glyphicon glyphicon-chevron-right"></b><span>Наш
+											коллектив</span></a></li>
+								<li><a href="/gallery/"><b class="glyphicon
+														   glyphicon-chevron-right"></b><span>Фотогалерея</span></a></li>
+								<li><a href="/videos/"><b class="glyphicon
+														  glyphicon-chevron-right"></b><span>Видеогалерея</span></a></li>
+								<li><a href="/page/licensii/"><b class="glyphicon
+																 glyphicon-chevron-right"></b><span>Лицензии</span></a></li>
+								<li><a href="/page/jobs/"><b class="glyphicon
+															 glyphicon-chevron-right"></b><span>Вакансии</span></a></li>
+							</ul>
+						</li>
+						<li><a href="/page/contacts/">КОНТАКТЫ</a></li>
+						<li>
+							<style>
+								.form-group.search { width: 250px;position: relative; top: -3px }
+								#ya-site-form0 .ya-site-form__search-input {padding:0; padding-top: 3px}
+
+								#ya-site-form0 .ya-site-form__input-text {
+									width: 250px;
+									font-size: 14px;
+									padding: 6px 12px;
+								}
+
+								#ya-site-form0 .ya-site-form__submit_type_image{
+									position: absolute;
+									top:0;
+									right: 0;
+									width: 43px;
+									height: 36px;
+									display: block;
+									background: url('http://salon-radiance.ru/static/img/glass.png') no-repeat 0 0;        
+								}
+
+								td.ya-site-form__search-precise {display:none}
+							</style>
+
+							<form class="navbar-form navbar-left" role="search">
+								<div class="form-group search">
+
+								</div></form>
+
+
+						</li>
+					</ul>
+				</div><!-- /.container-fluid -->
+			</nav>
+		</div><!--END menu-main-->
+
+
+
+
+
+		<div class="container main-content" style="padding-bottom: 30px">
+
+			<ul class="breadcrumb">
+
+				<li><a href="/">Главная</a></li>
+				<li><a href="/employees/">Наши сотрудники</a></li>
+				<li>Елена Соловиченко</li>
+
+			</ul>
+			<div class="row">
+				<div class="col-md-3">
+
+
+
+
+					<div class="specialist-block">
+						<h3>Соловиченко Елена Викторовна</h3>
+						<p>Косметолог-эстетист с 20-ти летним стажем</p>
+						
+						<div class="image-block">
+							<a href="#"><img src="img/elena.png" alt="elena"></a>
+						</div>
+						<a href="#" data-toggle="modal" data-target="#skillsModal" class="skills"><img src="img/nr1.png" alt="nr1"> <span>Компетенции</span></a>
+						<div class="call-block">
+							<span>Звоните лично мне</span>
+							<a href="#"><img src="img/tel-icon.png" alt="tel"> +7 (923) <span>3543868</span></a>
+						</div>
+						
+						<div class="linked-block clearfix">
+							<a href="#" data-toggle="modal" data-target="#question-form" class="bg-black"><img src="http://salon-radiance.ru/static/img/question.png"> <span>ЗАДАТЬ ВОПРОС</span></a>
+							<div class="clearfix"></div>
+							
+
+						</div>
+
+					</div>
+
+					<div class="linked-block bg-brown">
+						<img src="http://salon-radiance.ru/static/img/check.png">
+						<a href="#" data-toggle="modal" data-target="#make-apointment-m-form">ЗАПИСЬ НА КОНСУЛЬТАЦИЮ</a>
+
+
+						<style>
+							.modal-header {border: 0;}
+
+							#make-apointment-m-form form { padding: 1px 1px 0 1px }
+							#make-apointment-m-form .form-group { padding: 0 20px}
+							#make-apointment-m-form .form-group.cells { padding: 20px; }
+							#make-apointment-m-form h2 { font-size: 24px; text-align: center;}
+							#make-apointment-m-form input { border: 1px solid #b69543; border-radius: 0}
+							#make-apointment-m-form .form-group.inline input { width: 270px}
+							#make-apointment-m-form .linked-block { margin: 0 auto; width: 150px}
+							#make-apointment-m-form .linked-block a { color: #FFF}
+							#make-apointment-m-form .modal-body { padding:0}
+						</style>
+
+
+						<div id="make-apointment-m-form" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-sm" style="width: 400px; margin: 0 auto;">
+
+								<div class="modal-content shadow bg-biege" style="width: 600px; margin: 0 auto; ">
+									<div class="modal-header">
+										<button class="close" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+										<h2>Записаться на консультацию</h2>
+									</div>
+									<div class="modal-body">
+										<div class="alert alert-danger" style="display:none">Заполните поля, помеченные *</div>
+										<form action="" method="post" class="from-horizontal">
+											<input type="hidden" name="url" value="http://salon-radiance.ru/employees/3/"> 
+											<input type="hidden" name="csrfmiddlewaretoken" value="5dTX5VOg8oiUat0R5HAHVZcCaKnKpvod">
+											<div class="form-group inline">
+												<input class="form-control pull-left" id="id_name" maxlength="30" name="name" placeholder="Как вас зовут*" type="text">
+												<input class="form-control pull-right" id="id_phone" maxlength="50" name="phone" placeholder="Ваш телефон*" type="text">
+												<div class="clearfix"></div>
+											</div>
+
+											<div class="form-group">
+												<input class="form-control" id="id_theme" maxlength="50" name="theme" placeholder="Какая процедура или какой специалист вас интересует" type="text">
+											</div>
+											<div class="form-group">
+												<input class="form-control" id="id_text" name="text" placeholder="Предварительные дата и время, удобные для вас" type="text">
+											</div>
+
+											<div class="form-group cells black">
+												<div class="linked-block bg-black">
+													<img src="http://salon-radiance.ru/static/img/next.png">
+													<a id="make-modal-btn" href="#">Записаться</a>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div id="modal-alert6" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-sm">
+								<div class="modal-content bg-biege">
+									<div class="modal-header">
+										<button class="close" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+									</div>
+									<div class="modal-body">
+										Спасибо за вашу заявку. Мы свяжемся с вами в течение рабочего дня 
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+
+						<script>
+														$('#make-modal-btn').click(function () {
+															var form = $(this).closest('form');
+															var formData = {url: window.location.href};
+															form.find(':input').each(function (k, v) {
+																formData[v.name] = v.value;
+															});
+
+															$.ajax({
+																url: '/api/v1/makeanapointment/',
+																type: 'post',
+																contentType: 'application/json',
+																dataType: 'json',
+																data: JSON.stringify(formData),
+																statusCode: {
+																	201: function () {
+																		$('#make-apointment-m-form').modal('hide');
+																		$('#modal-alert6').modal('show');
+																		setTimeout(function () {
+																			form.trigger('reset');
+																			$('.alert-danger').hide();
+																			$('#modal-alert6').modal('hide');
+																		}, 5000);
+																	},
+																	400: function (s, d) {
+																		$('.alert-danger').show();
+																	}
+																},
+															});
+														});
+						</script>
+
+					</div>
+
+
+					<div class="linked-block bg-biege">
+						<img src="/static/img/gift.png">
+						<a href="/page/certificates/">ПОДАРОЧНЫЕ СЕРТИФИКАТЫ</a>
+					</div>
+
+					<style>
+						.banner img { width:100% }
+						.banner a:hover { text-decoration: none}
+						.banner a:hover .linked-block{ border: 0}
+						.banner .linked-block {background: url('/static/img/vtl-2.png') repeat-x 0 0;
+											   padding-top: 7px; position:relative; bottom: 34px; display: block;
+											   color: #222; border: 0; font-family: Verdana}
+						.banner .linked-block span { border-bottom: 1px dashed #222;}
+						.banner a:hover .linked-block span { border-bottom: 0;}
+						.banner-container {position:relative; top: -40px;}
+						.banner-container .banner {margin-top:15px; position: relative;}
+						.banner-container .banner img {position:absolute; top:0; left:0; z-index:1;}
+						.banner-container .banner object {position:relative; z-index:2;}
+
+					</style>
+					<div class="banner">
+						<a href="http://salon-radiance.ru/virtual-tour/">
+							<img src="http://salon-radiance.ru/static/img/vt.jpg">
+							<span class="linked-block"><span>ВИРТУАЛЬНЫЙ ТУР ПО СТУДИИ</span></span>
+						</a>
+					</div>
+
+					<div class="banner-container">
+
+					</div>
+
+				</div>
+
+
+
+				<div class="col-md-9">
+
+
+					<div class="cells">
+						<h2 class="bg-cream">Елена Соловиченко</h2>
+						<div class="clearfix"></div>
+					</div>
+
+					<div class="outer">
+
+						<div class="squared-image into-text">
+							<img src="http://salon-radiance.ru/media/employees/solovichenko.jpg" class="img-rounded">
+							<div class="date"></div>
+						</div>
+
+						<p class="text"></p><p style="text-align: justify;"><strong>Косметолог - эстетист</strong></p>
+						<p style="text-align: justify;">Работает с 1994 года.</p>
+						<p style="text-align: justify;">Имеет Международный диплом Cidesko, позволяющий работать в любой стране мира. Проходила обучение испанскому массажу (хиромассаж) у Энрике Гарсия в течение 10 лет. Проходила обучение в школе Samadhi у Франко Франческо.</p>
+						<p style="text-align: justify;">Принимала участие в фестивалях по испанскому массажу в Массажной Школе Елены Земсковой.</p>
+						<p style="text-align: justify;">Победительница Международного конкурса по косметологии и эстетики 2005 года в Санкт-Петербурге.</p>
+						<p style="text-align: justify;">Увлечения – работа, пилатес, большой теннис.</p>
+						<h2>Дипломы</h2>
+						<p><img src="http://salon-radiance.ru/media/uploads/sertifikat-e-solovichenko_17-10-2014.jpg" alt="" width="824" height="1176"></p>
+						<p><img src="http://salon-radiance.ru/media/uploads/sol1.jpg" alt=""></p>
+						<p><img src="http://salon-radiance.ru/media/uploads/sol2.jpg" alt=""></p>
+						<p><img src="http://salon-radiance.ru/media/uploads/sol3.jpg" alt=""></p>
+						<h2 style="padding-top: 50px;">Видео</h2>
+						<p align="center"><iframe src="http://www.youtube.com/embed/MCn1PWjuQFo?rel=0" frameborder="0" width="480" height="360"></iframe></p>
+						<p style="text-align: center;"><iframe src="http://www.youtube.com/embed/GQ0-C35zZ0Q?rel=0" frameborder="0" width="480" height="360"></iframe></p>
+						<p style="text-align: center;"><iframe src="http://www.youtube.com/embed/VEeDAxwMISA?rel=0" frameborder="0" width="480" height="360"></iframe></p>
+						<h2>Елена Соловиченко член жюри на v международном конкурсе косметологии и эстетики апрель 2013.</h2>
+						<p><img title="Елена Соловиченко член жюри на v международном конкурсе " src="http://salon-radiance.ru/media/uploads/solovichenko-konkurs.jpg" alt="Елена Соловиченко член жюри на v международном конкурсе" width="800" height="600"></p>
+						<p><img title="Елена Соловиченко член жюри на v международном конкурсе " src="http://salon-radiance.ru/media/uploads/solovichenko-konkurs2.jpg" alt="Елена Соловиченко член жюри на v международном конкурсе" width="800" height="600"></p>
+						<p><img title="Елена Соловиченко член жюри на v международном конкурсе" src="http://salon-radiance.ru/media/uploads/solovichenko-konkurs3.jpg" alt="Елена Соловиченко член жюри на v международном конкурсе" width="800" height="600"></p>
+						<p><img title="Елена Соловиченко член жюри на v международном конкурсе" src="http://salon-radiance.ru/media/uploads/solovichenko-konkurs4.jpg" alt="Елена Соловиченко член жюри на v международном конкурсе" width="800" height="600"></p><p></p>
+
+						<div class="clearfix"></div>
+
+					</div><!--END outer-->
+
+
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<div id="footer">
+
+			<div class="container">
+				<div class="row footer-data">
+					<div class="block-phone col-sm-3 clearfix">
+						<img src="http://salon-radiance.ru/static/img/phone.png">
+						<small>+7 (391)</small>
+						<div>214-48-78</div>
+						<div>2-650-400</div>
+					</div>      
+					<div class="block-place col-sm-3 clearfix">
+						<img src="http://salon-radiance.ru/static/img/place.png">
+						<div>Красноярск, ул. К.Маркса, 132<br>
+							<a href="#" data-toggle="modal" data-target=".bs-modal-map">схема проезда</a></div>
+					</div>      
+					<div class="block-email col-sm-3">
+						<img src="http://salon-radiance.ru/static/img/mail.png">
+						<div><a href="mailto:radiance.sk@yandex.ru">radiance.sk@yandex.ru</a></div>
+					</div>      
+					<div class="block-license col-sm-3">
+						<img src="http://salon-radiance.ru/static/img/license.png">
+						<div>ЛИЦЕНЗИЯ ЛО-24-01-002511 ОТ<br> 05.09.2014 МЗ<br> КРАСНОЯРСКОГО КРАЯ</div>
+					</div>      
+				</div>		
+			</div>
+
+			<div class="container copyright">
+				<div class="borderline"></div>
+				<div class="row">
+					<div class="col-sm-6">
+						<span class="pull-left">© 2014 Radiance</span>
+					</div>
+					<div class="col-sm-6">
+						<span class="pull-right">Разработка и поддержка:
+							<a href="http://www.alente.ru/">Alente</a>
+						</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 warnings">
+						<span>ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ. ТРЕБУЕТСЯ
+							КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТА.</span><br>
+					</div>
+				</div>
+			</div>
+		</div>
+		<style>
+								#modal-alert .modal-header {border: 0;}
+								#question-form .linked-block { margin: 0 auto; width: 150px; color:white}
+								#question-form .linked-block a { color:white}
+
+								#question-form form { padding: 1px 1px 0 1px }
+								#question-form .form-group { padding: 0 20px}
+								#question-form .form-group.cells { padding: 20px; }
+								#question-form h2 { font-size: 24px; text-align: center;}
+								#question-form input { border: 1px solid #b69543; border-radius: 0}
+								#question-form .form-group.inline input { width: 270px}
+								#question-form .linked-block { margin: 0 auto; width: 150px}
+								#question-form .linked-block a { color: #FFF}
+								#question-form .modal-body { padding:0}
+							</style>
+
+							<div id="question-form" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+								<div class="modal-dialog modal-sm" style="width: 400px; margin: 0 auto; padding: 20px">
+									<div class="modal-content shadow bg-biege">
+										<div class="modal-header">
+											<button class="close" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+											<h2>Задать вопрос</h2>
+										</div>
+										<div class="modal-body">
+											<div class="alert alert-danger" style="display:none">Заполните поля, помеченные *</div>
+											<form action="" method="post" class="from-horizontal">
+												<input type="hidden" name="csrfmiddlewaretoken" value="5dTX5VOg8oiUat0R5HAHVZcCaKnKpvod">
+												<input type="hidden" name="url" value="http://salon-radiance.ru/employees/3/"> 
+												<div class="form-group">
+													<input class="form-control" id="id_name" maxlength="30" name="name" placeholder="Как вас зовут*" type="text">
+												</div>
+												<div class="form-group">
+													<input class="form-control" id="id_phone" maxlength="50" name="phone" placeholder="Email*" type="text">
+												</div>
+												<div class="form-group">
+													<input class="form-control" id="id_text" name="text" placeholder="Ваш вопрос*" type="text">
+												</div>
+
+
+												<div class="form-group cells black">
+													<div class="linked-block bg-black">
+														<img src="http://salon-radiance.ru/static/img/next.png">
+														<a id="question-btn" href="#">Задать вопрос</a>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div id="skillsModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+								<div class="modal-dialog modal-md">
+									<div class="modal-content shadow bg-biege skill-modal">
+										<div class="modal-header">
+											<button class="close" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+											<h2>Компетенции</h2>
+										</div>
+										<div class="modal-body">
+											<p><i class="checked"></i> Международный диплом ,,CIDESCO,, по косметологии</p>
+											<p><i class="checked"></i> 20-ти летний опыт работы с проблемной кожей лица</p>
+											<p><i class="checked"></i> Проходила обучение испанскому массажу (хиромассаж) у Энрике Гарсия в течение 10 лет. </p>
+											<p><i class="checked"></i> Проходила обучение в школе Samadhi у Франко Франческо.</p>
+											<p><i class="checked"></i> Принимала участие в фестивалях по испанскому массажу в Массажной Школе Елены Земсковой.</p>
+											<p><i class="checked"></i> Победительница Международного конкурса по косметологии и эстетики 2005 года в Санкт-Петербурге.</p>
+										</div>
+										<div class="footer"></div>
+									</div>
+								</div>
+							</div>
+
+
+
+							<div id="modal-alert-7" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+								<div class="modal-dialog modal-sm">
+									<div class="modal-content bg-biege">
+										<div class="modal-header">
+											<button class="close" aria-hidden="true" data-dismiss="modal" type="button">×</button>
+										</div>
+										<div class="modal-body">
+											Спасибо за ваш вопрос. Мы ответим на него в ближайшее время
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+							<script>
+																$('#question-btn').click(function () {
+																	var form = $(this).closest('form');
+																	var formData = {url: window.location.href};
+																	form.find(':input').each(function (k, v) {
+																		formData[v.name] = v.value;
+																	});
+
+																	$.ajax({
+																		url: '/api/v1/question/',
+																		type: 'post',
+																		contentType: 'application/json',
+																		dataType: 'json',
+																		data: JSON.stringify(formData),
+																		statusCode: {
+																			201: function () {
+																				$('#question-form').modal('hide');
+																				$('#modal-alert-7').modal('show');
+																				setTimeout(function () {
+																					form.trigger('reset');
+																					$('.alert-danger').hide();
+																					$('#modal-alert-7').modal('hide');
+																				}, 5000);
+																			},
+																			400: function (s, d) {
+																				$('.alert-danger').show();
+																			}
+																		},
+																	});
+																});
+							</script>
+		<script>
+
+						$('.rounded-image a:not(".unhovered")').hover(
+								function () {
+									$(this).closest('.rounded-image').find('a').addClass('hover');
+								},
+								function () {
+									$(this).closest('.rounded-image').find('a').removeClass('hover');
+								}
+						);
+
+
+						function isMenuUnderMiddle()
+						{
+							return window.outerHeight + 2 * window.scrollY < 1000;
+						}
+
+
+
+						var menuDDID = false;
+
+						var openDDCb = function () {
+							if (isMenuUnderMiddle())
+								$(this).parent().find('.dropdown-menu').removeClass('down');
+							else
+								$(this).parent().find('.dropdown-menu').addClass('down');
+
+							clearTimeout(menuDDID);
+							$(this).find('.glyphicon:not(.glyphicon-chevron-right)').toggleClass('glyphicon-chevron-down').toggleClass('glyphicon-chevron-up');
+							$(this).parent().addClass('open');
+						};
+
+						var closeDDCb = function () {
+							var self = $(this).parent();
+							menuDDID = setTimeout(function () {
+								self.removeClass('open');
+								self.find('.glyphicon:not(.glyphicon-chevron-right)').toggleClass('glyphicon-chevron-down').toggleClass('glyphicon-chevron-up');
+							}, 100);
+						};
+
+						$('.dropdown-toggle, .dropdown-toggle + ul').hover(openDDCb, closeDDCb);
+		</script>
+
+
+
+	</body></html>
